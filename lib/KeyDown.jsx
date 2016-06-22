@@ -1,7 +1,9 @@
-import React, { Children, PropTypes } from 'react'
-import keyStack from './keyStack'
+var React = require('react');
+var Children = React.children;
+var PropTypes = React.PorpTypes;
+var keyStack = require('./keyStack');
 
-var KeyDown = React.createClass({
+var KeyDown = module.exports = React.createClass({
 
   propTypes: {
     shortcut: PropTypes.string.isRequired,
@@ -26,8 +28,6 @@ var KeyDown = React.createClass({
     return Children.only(this.props.children)
   }
 })
-
-export default KeyDown
 
 // TODO: - look for shouldComponentUpdate optimizations
 //       - verify support for receiving new props
