@@ -46,4 +46,13 @@ describe('keyStack.remove', function() {
     remove(this.elm); // do this to ensure cleanup for future specs
   });
 
+  it('should not modify the keyStack or listener if the element is not in the list', function () {
+    var x = {};
+    stack(this.elm);
+    remove(x);
+    expect(this.spy).not.to.have.beenCalled;
+    expect(this.listenerSpy).not.to.have.beenCalled;
+    remove(this.elm);
+  });
+
 });
