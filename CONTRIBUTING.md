@@ -1,6 +1,7 @@
 # Contributing
 
 We're glad you're considering contributing to KeyStack!  Below are some tips and a brief guide.
+
 1.  Fork and clone the repo:
   git clone git@github.com:your-username/KeyStack.git
 
