@@ -33,6 +33,7 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "keycode": "^2.1.2",
     "exenv": "^1.2.1"
   }
 }
