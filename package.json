@@ -1,0 +1,38 @@
+{
+  "name": "key-stack",
+  "version": "0.0.1",
+  "description": "keyStack setups keyboard events without overwritting previosuly set mappings by saving them in a stack",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iheartradio/KeyStack.git"
+  },
+  "author": "Tarik Ansari",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/iheartradio/KeyStack/issues"
+  },
+  "homepage": "https://github.com/iheartradio/KeyStack#readme",
+  "peerDependencies": {
+    "react": "^15"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.3.0",
+    "jsdom": "^9.2.1",
+    "mocha": "^2.5.3",
+    "react": "^15.1.0",
+    "react-addons-test-utils": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "exenv": "^1.2.1"
+  }
+}
