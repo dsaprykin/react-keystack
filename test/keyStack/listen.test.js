@@ -14,20 +14,11 @@ function excludedTag(name) {
     stack(this.elm);
     this.evt.target.tagName = name;
     listener(this.evt);
-    expect(this.stub).not.to.have.been.called;  
+    expect(this.stub).not.to.have.been.called;
   }
 }
 
 describe('keyStack.listen', function() {
-
-  before(function() {
-    // this.evt = {
-    //   keyCode: 27,
-    //   target: {
-    //     tagName: 'DIV'
-    //   }
-    // }
-  });
 
   beforeEach(function() {
     this.evt = {
@@ -58,7 +49,7 @@ describe('keyStack.listen', function() {
   it('should not call action if tag is a textarea', excludedTag('TEXTAREA'));
 
   it('should not call the element action if the shortcut doesn\'t match the mapping', function() {
-    this.elm.props.shortcut = 'not esc'
+    this.elm.props.shortcut = 'ctrl'
     stack(this.elm)
     listener(this.evt)
     expect(this.stub).not.to.have.been.called
