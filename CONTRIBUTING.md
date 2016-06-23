@@ -1,0 +1,32 @@
+# Contributing
+
+We're glad you're considering contributing to KeyStack!  Below are some tips and a brief guide.
+1.  Fork and clone the repo:
+  git clone git@github.com:your-username/KeyStack.git
+
+2.  Follow the steps in the ReadMe to set up your machine.
+
+3.  In the terminal, run:
+  npm install
+
+4.  Run the test suite:
+  npm test
+
+5.  Make your changes and write tests for your changes.
+
+6.  Run the test suite and ensure that all of them pass:
+  npm test
+
+7.  Push to your fork and submit a pull request.
+
+We'll respond to you within __ days with either by merging your request or with feedback or by suggesting changes.
+
+Things we'll look for before pulling in your work:
+  * you have tested your work well enough that another contributor is unlikely to accidentally break it.
+  * your formatting and style is consistent with the rest of the project (style guide to come)
+  * you have included a brief, but informative commit message.
+
+There is no code of conduct for contributing, but as a general rule, be nice.  :)
+
+Happy Coding!
+ - IHR Web Team
