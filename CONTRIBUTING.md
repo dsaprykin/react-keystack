@@ -22,9 +22,9 @@ We're glad you're considering contributing to KeyStack!  Below are some tips and
 We'll respond to you as soon as we can either by merging your request and/or by giving you feedback and suggestions on your PR
 
 Things we'll look for before pulling in your work:
-  * you have tested your work well enough that another contributor is unlikely to accidentally break it.
-  * your formatting and style is consistent with the rest of the project (style guide to come)
-  * you have included a brief, but informative commit message.
+  * have you tested your work well enough that another contributor is unlikely to accidentally break it?
+  * is your formatting and style consistent with the rest of the project? (style guide to come)
+  * have you included a brief, but informative commit message?
 
 There is no code of conduct for contributing, but as a general rule, be nice.  :)
 
