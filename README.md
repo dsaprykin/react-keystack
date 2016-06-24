@@ -3,7 +3,7 @@
 React-keystack allows developers to coordinate adding and removing keystroke listeners with the elements in the dom using an idiomatic react approach.
 
 
-Examples:
+## Example:
 Imagine that we have a music player component, and we want the music to stop when the user hits space, but we also have a Modal, and while it's present, we want hitting space to remove it, without stopping our music.  KeyStack allows us to do this simply.
 
 ```
