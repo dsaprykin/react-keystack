@@ -1,7 +1,7 @@
 {
-  "name": "key-stack",
+  "name": "react-keystack",
   "version": "0.0.1",
-  "description": "keyStack setups keyboard events without overwritting previosuly set mappings by saving them in a stack",
+  "description": "Coordinate adding and removing keystroke listeners with the elements in the DOM using an idiomatic React approach.",
   "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/iheartradio/KeyStack.git"
   },
-  "author": "Tarik Ansari",
+  "author": "Tarik Ansari <tarikansari@iheartmedia.com>",
+  "contributors" : [
+    "Zack Stayman <ZackStayman@iheartmedia.com>",
+    "Andrew Vickory <AndrewVickory@iheartmedia.com>"
+  ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/iheartradio/KeyStack/issues"
