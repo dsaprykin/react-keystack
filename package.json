@@ -1,7 +1,7 @@
 {
   "name": "react-keystack",
-  "version": "0.0.1",
-  "description": "Coordinate adding and removing keystroke listeners with the elements in the DOM using an idiomatic React approach.",
+  "version": "0.0.1-beta",
+  "description": "Assigns keystroke listeners to mounted elements using an idiomatic React approach.",
   "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
