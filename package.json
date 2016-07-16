@@ -1,6 +1,6 @@
 {
   "name": "react-keystack",
-  "version": "0.0.1-beta",
+  "version": "0.0.1-beta.1",
   "description": "Assigns keystroke listeners to mounted elements using an idiomatic React approach.",
   "main": "lib/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/iheartradio/KeyStack#readme",
   "peerDependencies": {
-    "react": ">=15.0.0"
+    "react": ">=0.14.8"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
