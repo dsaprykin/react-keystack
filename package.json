@@ -1,6 +1,6 @@
 {
   "name": "react-keystack",
-  "version": "0.0.1-beta.4",
+  "version": "0.0.1-beta.5",
   "description": "Assigns keystroke listeners to mounted elements using an idiomatic React approach.",
   "main": "lib/index.js",
   "scripts": {
@@ -37,9 +37,9 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "create-react-class": "15.6.2",
     "exenv": "^1.2.1",
     "keycode": "^2.1.2",
-    "prop-types": "15.6.0",
-    "react-create-class": "1.0.0"
+    "prop-types": "15.6.0"
   }
 }
