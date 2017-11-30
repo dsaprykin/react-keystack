@@ -1,6 +1,6 @@
 {
   "name": "react-keystack",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "description": "Assigns keystroke listeners to mounted elements using an idiomatic React approach.",
   "main": "lib/index.js",
   "scripts": {
