@@ -11,7 +11,7 @@
     "url": "git+https://github.com/iheartradio/KeyStack.git"
   },
   "author": "Tarik Ansari <tarikansari@iheartmedia.com>",
-  "contributors" : [
+  "contributors": [
     "Zack Stayman <ZackStayman@iheartmedia.com>",
     "Andrew Vickory <AndrewVickory@iheartmedia.com>"
   ],
@@ -37,7 +37,8 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "exenv": "^1.2.1",
     "keycode": "^2.1.2",
-    "exenv": "^1.2.1"
+    "prop-types": "15.6.0"
   }
 }
