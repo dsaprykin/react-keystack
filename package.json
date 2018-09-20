@@ -1,6 +1,6 @@
 {
   "name": "react-keystack",
-  "version": "0.0.1-beta.5",
+  "version": "0.0.1-beta.6",
   "description": "Assigns keystroke listeners to mounted elements using an idiomatic React approach.",
   "main": "lib/index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "enzyme": "^2.3.0",
     "jsdom": "^9.2.1",
     "mocha": "^2.5.3",
-    "react": "^15.1.0",
+    "react": "^16.4.0",
     "react-addons-test-utils": "^15.1.0",
     "react-dom": "^15.1.0",
     "sinon": "^1.17.4",

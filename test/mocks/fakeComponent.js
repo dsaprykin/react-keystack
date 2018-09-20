@@ -1,8 +1,6 @@
 module.exports = function(props) {
   return {
-    isMounted: function() {
-      return true;
-    },
+    isMounted: true,
     props: props
   };
 }

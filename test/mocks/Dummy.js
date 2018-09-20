@@ -1,7 +1,7 @@
-var React = require('react');
+var React, { PureComponent } = require('react');
 
-module.exports = React.createClass({
-  render: function() {
+module.exports = class Dummy extends PureComponent {
+  render() {
     return <div />;
   }
-})
+}
