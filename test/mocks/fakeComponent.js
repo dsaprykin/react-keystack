@@ -1,6 +1,6 @@
 module.exports = function(props) {
   return {
-    isMounted: true,
+    mounted: true,
     props: props
   };
 }
