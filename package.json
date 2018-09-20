@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/iheartradio/KeyStack#readme",
   "peerDependencies": {
-    "react": ">=0.14.8"
+    "react": ">=16.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
